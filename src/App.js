@@ -11,12 +11,19 @@ app.listen(PORT, ()=>{
 })
 
 app.get('/products', async (req,res)=>{
+    const limit = req.query.limit
     const products = await manager.getProducts();
-    res.send(products);
+
+    if (!limit) {
+        res.send(products);
+    } else {
+        const productsLimit = products.slice(0, parseInt(limit));
+        res.send(productsLimit);
+    }
 })
 
-app.get('/product/:id', async (req,res)=>{
+app.get('/products/:id', async (req,res)=>{
     const id = req.params.id;
     const product = await manager.getProductById(id);
-    res.send(product)
+    res.send(product);
 })

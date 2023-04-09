@@ -27,7 +27,7 @@
 		"id": 3
 	},
 	{
-		"title": "Marvel’s Spider-Man: Miles Morales",
+		"title": "Marvel’s Spider-Man Remastered",
 		"description": "Action",
 		"price": 4999,
 		"thumbnail": "not available",
@@ -36,13 +36,22 @@
 		"id": 4
 	},
 	{
+		"title": "Marvel’s Spider-Man: Miles Morales",
+		"description": "Action",
+		"price": 4999,
+		"thumbnail": "not available",
+		"code": "AC4",
+		"stock": 39,
+		"id": 5
+	},
+	{
 		"title": "Horizon Zero Dawn™ Complete Edition",
 		"description": "Adventure",
 		"price": 4199,
 		"thumbnail": "not available",
 		"code": "AV2",
 		"stock": 43,
-		"id": 5
+		"id": 6
 	},
 	{
 		"title": "Call of Duty®: Modern Warfare® II",
@@ -51,6 +60,33 @@
 		"thumbnail": "not available",
 		"code": "SH1",
 		"stock": 20,
-		"id": 6
+		"id": 7
+	},
+	{
+		"title": "Battlefield™ V",
+		"description": "Shooter",
+		"price": 5299,
+		"thumbnail": "not available",
+		"code": "SH2",
+		"stock": 13,
+		"id": 8
+	},
+	{
+		"title": "EA SPORTS™ FIFA 23",
+		"description": "Sports",
+		"price": 8999,
+		"thumbnail": "not available",
+		"code": "SP1",
+		"stock": 48,
+		"id": 9
+	},
+	{
+		"title": "F1® 22",
+		"description": "Sports",
+		"price": 6399,
+		"thumbnail": "not available",
+		"code": "SP2",
+		"stock": 39,
+		"id": 10
 	}
 ]
