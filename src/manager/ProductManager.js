@@ -33,9 +33,10 @@ export default class ProductManager{
         const products = await this.getProducts();
         const product = products.find(e => e.id == id);
         if (!product) {
+            return "Product not found";
             console.log("Not found");
         } else {
-            return `Product founded: ${product.id} - ${product.title}`
+            return product
         };
     }
 
@@ -64,5 +65,4 @@ export default class ProductManager{
             console.log("Product removed successfully");
         };
     }
-
 }
